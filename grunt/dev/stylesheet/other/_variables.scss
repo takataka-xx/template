@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+//$base_width:          100%;
+//$base_line_height:    1;
+
+// base-font
+$base_font: "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+$base_font_ie: "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+// font-family: $base_font;
+
+// image path
+$img_path: "../img/";
+// background: url(#{$img_path}share/bg_test.gif);
+
+// space set
+$base_margin_size:     2px;
+$base_padding_size:   2px;
+$base_border_size:    1px;
+$base_radius_size:    2px;
+
+// background
+$bg_primary:  #fff !default;
+$bg_secondary:  #ccc !default;
+
+// main color set
+$color_primary:  #000 !default;
+$color_secondary:  #999 !default;
+
+// gray color set
+$base_color:         #000 !default;
+$base_dark_gray:     #222 !default;
+$base_gray:          #555 !default;
+$base_light_gray:    #777 !default;
+$base_lighter_gray:  #eee !default;
+$base_text_color:    black !default;
+$base_link_color:    blue !default;
+$base_border_color:  gray !default;
+
+// font-size set
+@mixin font-rem($s:1.4) {
+  font-size:($s * 10) + px;
+  font-size:$s + rem;
+}
+// 使い方
+//p {
+//  @include font-rem(1.6); //font-size:16px; font-size:1.6rem;
+//}
+
+//px指定で表示させたい場合
+@mixin font-px($size:24, $base:10) {
+font-size: $size + px;
+font-size: ($size / $base) * 1rem;
+}
+//使い方
+//引数にフォントサイズをpxで指定する
+//@include font-px(12);
+
+// space-size
+$base_space_01:  $base_margin_size * 1;
+$base_space_02:  $base_margin_size * 2;
+$base_space_03:  $base_margin_size * 3;
+$base_space_04:  $base_margin_size * 4;
+$base_space_05:  $base_margin_size * 5;
+$base_space_06:  $base_margin_size * 6;
+$base_space_07:  $base_margin_size * 7;
+$base_space_08:  $base_margin_size * 8;
+$base_space_09:  $base_margin_size * 9;
+$base_space_10:  $base_margin_size * 10;
+
+// padding-size
+$base_padding_01:  $base_padding_size * 1;
+$base_padding_02:  $base_padding_size * 2;
+$base_padding_03:  $base_padding_size * 3;
+$base_padding_04:  $base_padding_size * 4;
+$base_padding_05:  $base_padding_size * 5;
+$base_padding_06:  $base_padding_size * 6;
+$base_padding_07:  $base_padding_size * 7;
+$base_padding_08:  $base_padding_size * 8;
+$base_padding_09:  $base_padding_size * 9;
+$base_padding_10:  $base_padding_size * 10;
+
+// border-size
+$base_border_01:  $base_border_size * 1;
+$base_border_02:  $base_border_size * 2;
+$base_border_03:  $base_border_size * 3;
+$base_border_04:  $base_border_size * 4;
+$base_border_05:  $base_border_size * 5;
+$base_border_06:  $base_border_size * 6;
+$base_border_07:  $base_border_size * 7;
+$base_border_08:  $base_border_size * 8;
+$base_border_09:  $base_border_size * 9;
+$base_border_10:  $base_border_size * 10;
+
+// border-radius
+$base_radius_01:  $base_radius_size * 1;
+$base_radius_02:  $base_radius_size * 2;
+$base_radius_03:  $base_radius_size * 3;
+$base_radius_04:  $base_radius_size * 4;
+$base_radius_05:  $base_radius_size * 5;
+$base_radius_06:  $base_radius_size * 6;
+$base_radius_07:  $base_radius_size * 7;
+$base_radius_08:  $base_radius_size * 8;
+$base_radius_09:  $base_radius_size * 9;
+$base_radius_10:  $base_radius_size * 10;
+
+// opacity
+$opacity_01:  0.1;
+$opacity_02:  0.2;
+$opacity_03:  0.3;
+$opacity_04:  0.4;
+$opacity_05:  0.5;
+$opacity_06:  0.6;
+$opacity_07:  0.7;
+$opacity_08:  0.8;
+$opacity_09:  0.9;

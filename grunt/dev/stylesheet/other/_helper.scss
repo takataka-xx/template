@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+// position
+.pt {position: top;}
+.pb {position: bottom;}
+.pl {position: left;}
+.pr {position: right;}
+
+// font-weight
+.b {font-weight: bold;}
+.i {font-style: italic;}
+
+// text-align
+.l {text-align: left;}
+.c {text-align: center;}
+.r {text-align: right;}
+
+// float
+.fl {float:left;}
+.fr {float:right;}
+
+// display
+.db {display: block;}
+.di {display: inline;}
+.dib {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+}
+.is-hidden {display: none;}
+
+// position
+.pf {position: fixed;}
+.pr {position: relative;}
+.pa {position: absolute;}
+
+// padding
+.pa {padding: $base_padding_01;}
+.pb {padding: $base_padding_02;}
+.pc {padding: $base_padding_03;}
+.pd {padding: $base_padding_04;}
+.pe {padding: $base_padding_05;}
+.pf {padding: $base_padding_06;}
+.pg {padding: $base_padding_07;}
+.ph {padding: $base_padding_08;}
+.pi {padding: $base_padding_09;}
+.pj {padding: $base_padding_10;}
+
+// padding-left
+.pla {padding-left: $base_padding_01;}
+.plb {padding-left: $base_padding_02;}
+.plc {padding-left: $base_padding_03;}
+.pld {padding-left: $base_padding_04;}
+.ple {padding-left: $base_padding_05;}
+.plf {padding-left: $base_padding_06;}
+.plg {padding-left: $base_padding_07;}
+.plh {padding-left: $base_padding_08;}
+.pli {padding-left: $base_padding_09;}
+.plj {padding-left: $base_padding_10;}
+
+// padding-right
+.pra {padding-right: $base_padding_01;}
+.prb {padding-right: $base_padding_02;}
+.prc {padding-right: $base_padding_03;}
+.prd {padding-right: $base_padding_04;}
+.pre {padding-right: $base_padding_05;}
+.prf {padding-right: $base_padding_06;}
+.prg {padding-right: $base_padding_07;}
+.prh {padding-right: $base_padding_08;}
+.pri {padding-right: $base_padding_09;}
+.prj {padding-right: $base_padding_10;}
+
+// padding-top
+.pta {padding-top: $base_padding_01;}
+.ptb {padding-top: $base_padding_02;}
+.ptc {padding-top: $base_padding_03;}
+.ptd {padding-top: $base_padding_04;}
+.pte {padding-top: $base_padding_05;}
+.ptf {padding-top: $base_padding_06;}
+.ptg {padding-top: $base_padding_07;}
+.pth {padding-top: $base_padding_08;}
+.pti {padding-top: $base_padding_09;}
+.ptj {padding-top: $base_padding_10;}
+
+// padding-bottom
+.pba {padding-bottom: $base_padding_01;}
+.pbb {padding-bottom: $base_padding_02;}
+.pbc {padding-bottom: $base_padding_03;}
+.pbd {padding-bottom: $base_padding_04;}
+.pbe {padding-bottom: $base_padding_05;}
+.pbf {padding-bottom: $base_padding_06;}
+.pbg {padding-bottom: $base_padding_07;}
+.pbh {padding-bottom: $base_padding_08;}
+.pbi {padding-bottom: $base_padding_09;}
+.pbj {padding-bottom: $base_padding_10;}
+
+// marign
+.ma {margin: $base_space_01;}
+.mb {margin: $base_space_02;}
+.mc {margin: $base_space_03;}
+.md {margin: $base_space_04;}
+.me {margin: $base_space_05;}
+.mf {margin: $base_space_06;}
+.mg {margin: $base_space_07;}
+.mh {margin: $base_space_08;}
+.mi {margin: $base_space_09;}
+.mj {margin: $base_space_10;}
+
+// marign-top
+.mta {margin-top: $base_space_01;}
+.mtb {margin-top: $base_space_02;}
+.mtc {margin-top: $base_space_03;}
+.mtd {margin-top: $base_space_04;}
+.mte {margin-top: $base_space_05;}
+.mtf {margin-top: $base_space_06;}
+.mtg {margin-top: $base_space_07;}
+.mth {margin-top: $base_space_08;}
+.mti {margin-top: $base_space_09;}
+.mtj {margin-top: $base_space_10;}
+
+// marign-bottom
+.mba {margin-bottom: $base_space_01;}
+.mbb {margin-bottom: $base_space_02;}
+.mbc {margin-bottom: $base_space_03;}
+.mbd {margin-bottom: $base_space_04;}
+.mbe {margin-bottom: $base_space_05;}
+.mbf {margin-bottom: $base_space_06;}
+.mbg {margin-bottom: $base_space_07;}
+.mbh {margin-bottom: $base_space_08;}
+.mbi {margin-bottom: $base_space_09;}
+.mbj {margin-bottom: $base_space_10;}
+
+// marign-left
+.mla {margin-left: $base_space_01;}
+.mlb {margin-left: $base_space_02;}
+.mlc {margin-left: $base_space_03;}
+.mld {margin-left: $base_space_04;}
+.mle {margin-left: $base_space_05;}
+.mlf {margin-left: $base_space_06;}
+.mlg {margin-left: $base_space_07;}
+.mlh {margin-left: $base_space_08;}
+.mli {margin-left: $base_space_09;}
+.mlj {margin-left: $base_space_10;}
+
+// marign-right
+.mra {margin-right: $base_space_01;}
+.mrb {margin-right: $base_space_02;}
+.mrc {margin-right: $base_space_03;}
+.mrd {margin-right: $base_space_04;}
+.mre {margin-right: $base_space_05;}
+.mrf {margin-right: $base_space_06;}
+.mrg {margin-right: $base_space_07;}
+.mrh {margin-right: $base_space_08;}
+.mri {margin-right: $base_space_09;}
+.mrj {margin-right: $base_space_10;}
+
+// border-radius(全体)
+.bra {border-radius: $base_radius_01}
+.brb {border-radius: $base_radius_02}
+.brc {border-radius: $base_radius_03}
+.brd {border-radius: $base_radius_04}
+.bre {border-radius: $base_radius_05}
+.brf {border-radius: $base_radius_06}
+.brg {border-radius: $base_radius_07}
+.brh {border-radius: $base_radius_08}
+.bri {border-radius: $base_radius_09}
+.brj {border-radius: $base_radius_10}
+
+// border-top-left-radius(左上)
+.btla {border-top-left-radius: $base_radius_01}
+.btlb {border-top-left-radius: $base_radius_02}
+.btlc {border-top-left-radius: $base_radius_03}
+.btld {border-top-left-radius: $base_radius_04}
+.btle {border-top-left-radius: $base_radius_05}
+.btlf {border-top-left-radius: $base_radius_06}
+.btlg {border-top-left-radius: $base_radius_07}
+.btlh {border-top-left-radius: $base_radius_08}
+.btli {border-top-left-radius: $base_radius_09}
+.btlj {border-top-left-radius: $base_radius_10}
+
+// border-top-left-radius(右上)
+.btra {border-top-right-radius: $base_radius_01}
+.btrb {border-top-right-radius: $base_radius_02}
+.btrc {border-top-right-radius: $base_radius_03}
+.btrd {border-top-right-radius: $base_radius_04}
+.btre {border-top-right-radius: $base_radius_05}
+.btrf {border-top-right-radius: $base_radius_06}
+.btrg {border-top-right-radius: $base_radius_07}
+.btrh {border-top-right-radius: $base_radius_08}
+.btri {border-top-right-radius: $base_radius_09}
+.btrj {border-top-right-radius: $base_radius_10}
+
+// border-bottom-left-radius(左下)
+.bbla {border-bottom-left-radius: $base_radius_01}
+.bblb {border-bottom-left-radius: $base_radius_02}
+.bblc {border-bottom-left-radius: $base_radius_03}
+.bbld {border-bottom-left-radius: $base_radius_04}
+.bble {border-bottom-left-radius: $base_radius_05}
+.bblf {border-bottom-left-radius: $base_radius_06}
+.bblg {border-bottom-left-radius: $base_radius_07}
+.bblh {border-bottom-left-radius: $base_radius_08}
+.bbli {border-bottom-left-radius: $base_radius_09}
+.bblj {border-bottom-left-radius: $base_radius_10}
+
+// border-bottom-right-radius(右下)
+.bbra {border-bottom-right-radius: $base_radius_01}
+.bbrb {border-bottom-right-radius: $base_radius_02}
+.bbrc {border-bottom-right-radius: $base_radius_03}
+.bbrd {border-bottom-right-radius: $base_radius_04}
+.bbre {border-bottom-right-radius: $base_radius_05}
+.bbrf {border-bottom-right-radius: $base_radius_06}
+.bbrg {border-bottom-right-radius: $base_radius_07}
+.bbrh {border-bottom-right-radius: $base_radius_08}
+.bbri {border-bottom-right-radius: $base_radius_09}
+.bbrj {border-bottom-right-radius: $base_radius_10}
+
+// border solid base-color
+// borderの変数の使い方の一例
+.bsba {border: $base_border_01 solid $base_color;}
+.bsbb {border: $base_border_02 solid $base_color;}
+.bsbc {border: $base_border_03 solid $base_color;}
+
+// word
+.bw {word-wrap: break-word;}
+.nw {white-space: nowrap !important;}
+
+
+
+// clearfix
+@mixin clearfix{
+  &:before,&:after { content: ""; display: table;}
+  &:after {clear: both;}
+  zoom: 1;
+}
+// 使い方
+// @include clearfix;
+
+
+// カラム設定用Mixin
+@mixin column($num,$margin:20) {
+  @include clearfix;
+  margin-left:#{-$margin}px;
+  $margin_num     :$num - 1;
+  $margin_width   :#{$margin * $num}px;
+
+  /* 要素のclass名 */
+  /* 包括要素がリスト（<ul> もしくは <ol>）の場合は直下の<li>に適用 */
+  > .col,
+  > li {
+    float: left;
+    margin-left:#{$margin}px;
+    width:-webkit-calc((100% - #{$margin_width}) / #{$num});
+    width:calc((100% - #{$margin_width}) / #{$num});
+  }
+}
+// 使い方
+// @include column(カラム数,margin値);
+//.hoge {
+//    @include column(2,40);
+// // @include column(カラム数,margin値);
+//}
+
+
+// opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  filter: alpha(opacity=($opacity * 100));
+ }
+// 使い方
+// div {
+//  @include opacity($opacity_01);
+// }
+
+
+// box-shadow
+@mixin box-shadow( $h: 10px , $v: 10px , $b: 0px , $s: 0px , $c: #000000 ) {
+  -webkit-box-shadow: $h $v $b $s $c;
+  -moz-box-shadow: $h $v $b $s $c;
+  box-shadow: $h $v $b $s $c;
+}
+// 使い方
+// div {
+//  @include box-shadow(8px, 8px);
+// }
